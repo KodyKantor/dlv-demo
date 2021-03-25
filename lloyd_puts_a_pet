@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -si -XPUT http://localhost:8080/pet -d '{ "name": "snowball", "species": "pig" }'
